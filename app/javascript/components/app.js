@@ -1,9 +1,15 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import First from './top/first';
+import Second from './top/second';
+
 
 class App extends Component{
   render(){
     return (
-      <h1>hello</h1>
+      <div>
+        <First/>
+        //<Second/>
+      </div>
     )
   }
 }
