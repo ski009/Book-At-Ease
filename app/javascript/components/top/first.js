@@ -21,7 +21,7 @@ class First extends Component{
             <Row>
               <Row className="nav">
                 <Col xs={6} md={4}>
-                  <h1>BootAtEase</h1>
+                  <h1>B.A.E</h1>
                 </Col>
                 <Col xs={6} md={4}>
 
@@ -30,26 +30,6 @@ class First extends Component{
                   <Login />
                 </Col>
               </Row>
-              <Row>
-                  <Col xs={6} md={4}>
-                  </Col>
-                  <Col xs={6} md={4}>
-                    <Form className="d-flex">
-                      <FormControl
-                        type="search"
-                        placeholder="Search"
-                        className="me-2"
-                        aria-label="Search"
-                      />
-                    <Button variant="outline-success">Search</Button>
-                    </Form>
-                  </Col>
-                  <Col xs={6} md={4}>
-                  </Col>
-              </Row>
-              <div>
-                <Slides />
-              </div>
             </Row>
           </div>
         </Container>
